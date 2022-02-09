@@ -48,6 +48,5 @@ need_push () {
   fi
 }
 
-
 export PROMPT="%F{$color_alpha}➜ %F{$color_beta}%c %{$reset_color%}"
 export RPROMPT='$(git_info)$(need_push)'
