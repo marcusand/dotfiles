@@ -1,0 +1,63 @@
+{
+  "git.autofetch": true,
+  "terminal.integrated.rendererType": "dom",
+  "[cpp]": {},
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: WebKit, ColumnLimit: 120, PointerAlignment: Left}",
+  "files.associations": {
+    "*.cap": "ruby",
+    ".eslintrc": "jsonc",
+    "*.md": "markdown",
+    "*.html": "html",
+    "*.svg": "xml"
+  },
+  "editor.tabSize": 2,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "spellright.language": ["de"],
+  "spellright.documentTypes": ["markdown", "latex", "plaintext"],
+  "javascript.format.enable": true,
+  "explorer.confirmDelete": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html",
+    "razor": "html",
+    "plaintext": "jade"
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "markdown.preview.lineHeight": 1.8,
+  "markdown-preview-enhanced.mermaidTheme": "default",
+  "markdown-preview-enhanced.previewTheme": "atom-light.css",
+  "markdown-preview-enhanced.enableTypographer": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "latex-workshop.view.pdf.viewer": "tab",
+  "plantuml.exportInPlace": true,
+  "plantuml.previewFileType": "svg",
+  "plantuml.previewFromUrlServer": true,
+  "plantuml.server": "https://www.plantuml.com/plantuml",
+  "plantuml.render": "PlantUMLServer",
+  "plantuml.diagramsRoot": "figures/uml",
+  "plantuml.exportOutDir": "figures/uml/out",
+  "plantuml.exportFormat": "latex",
+  "plantuml.exportSubFolder": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.renderWhitespace": "all",
+  "eslint.alwaysShowStatus": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[html]": {
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+
+  "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
+  "[handlebars]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "svelte.enable-ts-plugin": true
+}
