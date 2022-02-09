@@ -2,6 +2,8 @@ export ZSH="$HOME/projects/dotfiles/zsh"
 export EDITOR='vim'
 export SSH_KEY_PATH="~/.ssh/rsa_id"
 export GRAPHVIZ_DOT="/usr/local/bin/dot" # PlantUML
+export CLICOLOR=1
+export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd
 
 # from https://medium.com/@dannysmith/little-thing-2-speeding-up-zsh-f1860390f92
 autoload -Uz compinit
