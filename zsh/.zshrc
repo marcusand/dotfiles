@@ -20,4 +20,4 @@ bindkey '^R' history-incremental-search-backward
 
 source $ZSH/prompt.zsh
 source $ZSH/aliases.zsh
-source $ZSH/aliases.zsh
+source $ZSH/envs.zsh
