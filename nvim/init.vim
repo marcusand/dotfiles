@@ -10,6 +10,7 @@ call plug#begin('~/.config/nvim/plugged')
   Plug 'junegunn/seoul256.vim'
   Plug 'preservim/nerdtree'
   Plug 'tpope/vim-fugitive'
+  Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 call plug#end()
 
 " configure color scheme
