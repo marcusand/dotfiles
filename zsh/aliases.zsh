@@ -8,6 +8,7 @@ alias privat="cd ~/projects/privat"
 alias meso="cd ~/projects/arbeit/meso"
 alias dot="cd ~/projects/dotfiles"
 alias docs="cd ~/Documents"
+alias know="cd ~/projects/privat/knowledge"
 
 alias broker="/Applications/hivemq-4.3.1/bin/run.sh"
 alias wine="wine64"
