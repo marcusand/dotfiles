@@ -5,6 +5,7 @@ alias ls="ls -l"
 
 alias projects="cd ~/projects"
 alias privat="cd ~/projects/privat"
+alias tools="cd ~/projects/tools"
 alias meso="cd ~/projects/arbeit/meso"
 alias dot="cd ~/projects/dotfiles"
 alias docs="cd ~/Documents"
