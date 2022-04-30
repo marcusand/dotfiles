@@ -21,10 +21,6 @@ done
 ##### yarn
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
-##### ruby
-eval "$(rbenv init -)"
-export PATH="$HOME/.rbenv/bin:$PATH"
-export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH" 
 
 ##### php
 export PATH="$HOME/.composer/vendor/bin:$PATH"
