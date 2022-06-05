@@ -69,5 +69,8 @@
   "[handlebars]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
-  "svelte.enable-ts-plugin": true
+  "svelte.enable-ts-plugin": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
