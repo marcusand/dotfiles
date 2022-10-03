@@ -12,6 +12,7 @@ call plug#begin('~/.config/nvim/plugged')
   Plug 'tpope/vim-fugitive'
   Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
   Plug 'dkarter/bullets.vim'
+  Plug 'vim-scripts/YankRing.vim'
 call plug#end()
 
 " configure color scheme

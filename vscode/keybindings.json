@@ -92,5 +92,15 @@
     "command": "vscode-neovim.escape",
     "key": "Escape",
     "when": "editorTextFocus && neovim.init"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "vscode-neovim.send",
+    "args": "<C-n>"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "vscode-neovim.send",
+    "args": "<C-p>"
   }
 ]
