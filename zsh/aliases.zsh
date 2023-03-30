@@ -16,3 +16,7 @@ alias broker="/Applications/hivemq-4.3.1/bin/run.sh"
 alias wine="wine64"
 alias bfg="java -jar ~/projekte/tools/bfg-repo-cleaner/bfg-1.13.2.jar"
 alias vim="nvim"
+
+alias lang="npm run generate:language"
+alias types="npm run generate:server-types"
+alias tests="npm run test -- --watch"
