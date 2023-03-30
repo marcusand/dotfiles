@@ -25,7 +25,6 @@
   "workbench.startupEditor": "newUntitledFile",
   "markdown.preview.lineHeight": 1.8,
   "markdown-preview-github-styles.colorTheme": "light",
-  "diffEditor.ignoreTrimWhitespace": false,
   "latex-workshop.view.pdf.viewer": "tab",
   "plantuml.exportInPlace": true,
   "plantuml.previewFileType": "svg",
@@ -43,6 +42,7 @@
   "editor.formatOnPaste": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": true,
     "source.fixAll.eslint": true
   },
   "editor.bracketPairColorization.enabled": true,
@@ -70,5 +70,13 @@
   "svelte.enable-ts-plugin": true,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.suggest.insertMode": "replace",
+    "cSpell.fixSpellingWithRenameProvider": false,
+    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  },
+  "stylelint.customSyntax": "postcss-scss",
+  "stylelint.validate": ["css", "scss"]
   }
 }
