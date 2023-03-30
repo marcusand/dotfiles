@@ -1,0 +1,7 @@
+{
+  "React set className to className": {
+    "scope": "typescriptreact",
+    "prefix": "cncn",
+    "body": ["className={className}"]
+  }
+}

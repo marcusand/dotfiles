@@ -1,0 +1,7 @@
+{
+  "React set className to select from css components": {
+    "scope": "typescriptreact",
+    "prefix": "cn",
+    "body": ["className={styles.$1}"]
+  }
+}
