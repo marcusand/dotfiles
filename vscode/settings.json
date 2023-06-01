@@ -77,6 +77,11 @@
     "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
   },
   "stylelint.customSyntax": "postcss-scss",
-  "stylelint.validate": ["css", "scss"]
-  }
+  "stylelint.validate": ["css", "scss"],
+  "workbench.colorTheme": "Default Dark+",
+  "yaml.schemas": {
+    "file:///Users/marcus/.vscode/extensions/atlassian.atlascode-3.0.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "cSpell.userWords": ["Styleable"],
+  "git.confirmSync": false
 }
