@@ -1,0 +1,7 @@
+{
+  "use scss variables file": {
+    "scope": "scss",
+    "prefix": "var.ce",
+    "body": ["@use 'src/common/styles/variables' as variables;"]
+  }
+}
