@@ -12,15 +12,14 @@
       "  $1",
       "}",
       "",
-      "const ${TM_DIRECTORY/^.+\\/(.*)$/$1/}: React.FC<${TM_DIRECTORY/^.+\\/(.*)$/$1/}Props> = ({ $2 }) => {",
+      "export const ${TM_DIRECTORY/^.+\\/(.*)$/$1/}: React.FC<${TM_DIRECTORY/^.+\\/(.*)$/$1/}Props> = ({ $2 }) => {",
       "  return (",
       "    <div className={styles.root}>",
       "    {'Hello World'}",
       "    </div>",
       "  )",
       "}",
-      "",
-      "export default ${TM_DIRECTORY/^.+\\/(.*)$/$1/};"
+      ""
     ]
   }
   // Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and

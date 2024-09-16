@@ -8,7 +8,8 @@
     ".eslintrc": "jsonc",
     "*.md": "markdown",
     "*.html": "html",
-    "*.svg": "xml"
+    "*.svg": "xml",
+    "*.svelte": "svelte"
   },
   "editor.tabSize": 2,
   "javascript.updateImportsOnFileMove.enabled": "never",
@@ -42,8 +43,8 @@
   "editor.formatOnPaste": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
-    "source.fixAll.stylelint": true,
-    "source.fixAll.eslint": true
+    "source.fixAll.stylelint": "explicit",
+    "source.fixAll.eslint": "explicit"
   },
   "editor.bracketPairColorization.enabled": true,
   "workbench.colorCustomizations": {
@@ -80,8 +81,19 @@
   "stylelint.validate": ["css", "scss"],
   "workbench.colorTheme": "Default Dark+",
   "yaml.schemas": {
-    "file:///Users/marcus/.vscode/extensions/atlassian.atlascode-3.0.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    "file:///Users/marcus/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
   },
-  "cSpell.userWords": ["Styleable"],
-  "git.confirmSync": false
+  "cSpell.userWords": ["Ringback", "Styleable"],
+  "git.confirmSync": false,
+  "editor.lineNumbers": "relative",
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "gitlens.codeLens.enabled": false,
+  "atlascode.bitbucket.pipelines.monitorEnabled": false,
+  "atlascode.bitbucket.issues.monitorEnabled": false,
+  "atlascode.bitbucket.explorer.notifications.pullRequestCreated": false,
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  }
 }
