@@ -13,8 +13,14 @@
   },
   "editor.tabSize": 2,
   "javascript.updateImportsOnFileMove.enabled": "never",
-  "spellright.language": ["de"],
-  "spellright.documentTypes": ["markdown", "latex", "plaintext"],
+  "spellright.language": [
+    "de"
+  ],
+  "spellright.documentTypes": [
+    "markdown",
+    "latex",
+    "plaintext"
+  ],
   "javascript.format.enable": true,
   "explorer.confirmDelete": false,
   "emmet.includeLanguages": {
@@ -63,8 +69,6 @@
   "[php]": {
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
   },
-
-  "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
   "[handlebars]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
@@ -78,12 +82,18 @@
     "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
   },
   "stylelint.customSyntax": "postcss-scss",
-  "stylelint.validate": ["css", "scss"],
+  "stylelint.validate": [
+    "css",
+    "scss"
+  ],
   "workbench.colorTheme": "Default Dark+",
   "yaml.schemas": {
     "file:///Users/marcus/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
   },
-  "cSpell.userWords": ["Ringback", "Styleable"],
+  "cSpell.userWords": [
+    "Ringback",
+    "Styleable"
+  ],
   "git.confirmSync": false,
   "editor.lineNumbers": "relative",
   "extensions.experimental.affinity": {
