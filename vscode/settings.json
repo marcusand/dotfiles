@@ -13,14 +13,8 @@
   },
   "editor.tabSize": 2,
   "javascript.updateImportsOnFileMove.enabled": "never",
-  "spellright.language": [
-    "de"
-  ],
-  "spellright.documentTypes": [
-    "markdown",
-    "latex",
-    "plaintext"
-  ],
+  "spellright.language": ["de"],
+  "spellright.documentTypes": ["markdown", "latex", "plaintext"],
   "javascript.format.enable": true,
   "explorer.confirmDelete": false,
   "emmet.includeLanguages": {
@@ -82,18 +76,12 @@
     "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
   },
   "stylelint.customSyntax": "postcss-scss",
-  "stylelint.validate": [
-    "css",
-    "scss"
-  ],
+  "stylelint.validate": ["css", "scss"],
   "workbench.colorTheme": "Default Dark+",
   "yaml.schemas": {
     "file:///Users/marcus/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
   },
-  "cSpell.userWords": [
-    "Ringback",
-    "Styleable"
-  ],
+  "cSpell.userWords": ["Ringback", "Styleable"],
   "git.confirmSync": false,
   "editor.lineNumbers": "relative",
   "extensions.experimental.affinity": {
@@ -105,5 +93,7 @@
   "atlascode.bitbucket.explorer.notifications.pullRequestCreated": false,
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
-  }
+  },
+  "cSpell.language": "en,de-de",
+  "markdown-preview-enhanced.enablePreviewZenMode": false
 }
