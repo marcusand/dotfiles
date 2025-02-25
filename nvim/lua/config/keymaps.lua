@@ -29,3 +29,7 @@ map("n", "<leader>mp", ":MarkdownPreview<cr>", { desc = "Open markdown preview" 
 
 -- Git
 map("n", "<leader>gB", ":Telescope git_branches<cr>", { desc = "Git list branches" })
+
+-- map("n", "gc", "``", { desc = "Go to last cursor position" })
+
+map("n", "gl", "`.", { desc = "Go to last change" })
