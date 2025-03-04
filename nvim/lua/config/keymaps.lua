@@ -17,12 +17,12 @@ map("n", "<C-Left>", "<cmd>vertical resize -2<cr>", { desc = "Decrease Window Wi
 map("n", "<C-Right>", "<cmd>vertical resize +2<cr>", { desc = "Increase Window Width" })
 
 -- Move Lines
-map("n", "<C-S-j>", "<cmd>m .+1<cr>==", { desc = "Move Down" })
-map("n", "<C-S-k>", "<cmd>m .-2<cr>==", { desc = "Move Up" })
-map("i", "<C-S-j>", "<esc><cmd>m .+1<cr>==gi", { desc = "Move Down" })
-map("i", "<C-S-k>", "<esc><cmd>m .-2<cr>==gi", { desc = "Move Up" })
-map("v", "<C-S-j>", ":m '>+1<cr>gv=gv", { desc = "Move Down" })
-map("v", "<C-S-k>", ":m '<-2<cr>gv=gv", { desc = "Move Up" })
+map("n", "º", "<cmd>m .+1<cr>==", { desc = "Move Down" })
+map("n", "∆", "<cmd>m .-2<cr>==", { desc = "Move Up" })
+map("i", "º", "<esc><cmd>m .+1<cr>==gi", { desc = "Move Down" })
+map("i", "∆", "<esc><cmd>m .-2<cr>==gi", { desc = "Move Up" })
+map("v", "º", ":m '>+1<cr>gv=gv", { desc = "Move Down" })
+map("v", "∆", ":m '<-2<cr>gv=gv", { desc = "Move Up" })
 
 -- Markdown Preview
 map("n", "<leader>mp", ":MarkdownPreview<cr>", { desc = "Open markdown preview" })
