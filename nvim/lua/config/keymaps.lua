@@ -31,3 +31,6 @@ map("n", "<leader>mp", ":MarkdownPreview<cr>", { desc = "Open markdown preview" 
 map("n", "<leader>gB", ":Telescope git_branches<cr>", { desc = "Git list branches" })
 
 map("n", "gl", "`.", { desc = "Go to last change" })
+
+--- Tidal Cycles
+map("", "<C-k>", "<C-e>", { desc = "Send inner paragraph to tidal", remap = true })
