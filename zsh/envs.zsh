@@ -24,3 +24,7 @@ export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 ##### php
 export PATH="$HOME/.composer/vendor/bin:$PATH"
+
+
+##### postgresql
+export PATH="/Library/PostgreSQL/17/bin:$PATH"
