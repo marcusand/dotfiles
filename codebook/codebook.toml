@@ -1,0 +1,14 @@
+dictionaries = [
+    "en_us",
+    "en_gb",
+    "de",
+]
+words = [
+    "codebook",
+    "rustc",
+]
+ignore_paths = [".git/**/*"]
+ignore_patterns = [
+    "^[A-Z]{2,}$",
+    'https?://[^\s]+',
+]
