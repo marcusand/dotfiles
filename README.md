@@ -1,3 +1,3 @@
 # dotfiles
 
-My config files for zsh, vscode, nvim and iterm that I'm using across machines.
+My config files for different tools that I'm using across machines.
