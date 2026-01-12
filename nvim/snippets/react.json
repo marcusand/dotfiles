@@ -1,0 +1,6 @@
+{
+  "React className": {
+    "prefix": "cn",
+    "body": ["className=\"$1\""]
+  }
+}
