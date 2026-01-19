@@ -2,5 +2,9 @@
   "React className": {
     "prefix": "cn",
     "body": ["className=\"$1\""]
+  },
+  "React className to className": {
+    "prefix": "cncn",
+    "body": ["className={className}"]
   }
 }
