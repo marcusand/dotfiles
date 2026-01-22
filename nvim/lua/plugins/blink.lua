@@ -20,7 +20,7 @@ return {
     },
     sources = {
       providers = {
-        supermaven = {
+        copilot = {
           score_offset = 0,
         },
       },
