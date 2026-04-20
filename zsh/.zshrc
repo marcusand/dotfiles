@@ -22,3 +22,5 @@ source $ZSH/prompt.zsh
 source $ZSH/aliases.zsh
 source $ZSH/envs.zsh
 source ${HOME}/.ghcup/env
+
+export PATH="$HOME/.local/bin:$PATH"
